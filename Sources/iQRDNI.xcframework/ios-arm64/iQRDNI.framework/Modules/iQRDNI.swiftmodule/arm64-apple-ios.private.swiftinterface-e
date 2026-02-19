@@ -1,0 +1,123 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios26.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iQRDNI
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import CryptoKit
+import CryptoSwift
+import Foundation
+import Security
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class EstadoLicencia {
+  public var descripcion: Swift.String?
+  public var APIKeyValida: Swift.Bool
+  public var lecturaDGHabilitada: Swift.Bool
+  public var autenticacionHabilitada: Swift.Bool
+  public var firmaHabilitada: Swift.Bool
+  public var lecturaQRHabilitada: Swift.Bool
+  @objc deinit
+}
+public struct MiDNIData {
+  public var dni: Swift.String?
+  public var name: Swift.String?
+  public var surnames: Swift.String?
+  public var birthDate: Swift.String?
+  public var expiryDate: Swift.String?
+  public var gender: Swift.String?
+  public var address: Swift.String?
+  public var nationality: Swift.String?
+  public var parents: Swift.String?
+  public var supportNumber: Swift.String?
+  public var birthPlace1: Swift.String?
+  public var birthPlace2: Swift.String?
+  public var birthPlace3: Swift.String?
+  public var photoData: Foundation.Data?
+  public var isAdult: Swift.Bool?
+  public var rawSignature: Foundation.Data?
+  public var signedData: Foundation.Data?
+  public var certificateRef: Swift.String?
+  public var type: iQRDNI.MiDNIType?
+  public var verificationResult: iQRDNI.VerificationResult?
+  public var qrDataExpiry: Swift.String?
+  public var fullBirthPlace: Swift.String {
+    get
+  }
+}
+public enum MiDNIType : Swift.Int {
+  case EDAD
+  case SIMPLE
+  case COMPLETO
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum VerificationResult {
+  case valid(certificateName: Swift.String)
+  case invalid
+  case noCertificates
+  case invalidQR
+  case expiratedQR
+}
+@_hasMissingDesignatedInitializers public class PkiUtils {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class StringUtils {
+  public static func localizedString(forKey key: Swift.String) -> Swift.String
+  public static func localizedStringFramework(forKey key: Swift.String) -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func nacimientoToDate(cadena: Swift.String) -> Foundation.Date?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func stringToDate(cadena: Swift.String, formato: Swift.String) -> Foundation.Date?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func formateaFecha(fecha: Foundation.Date, formato: Swift.String) -> Swift.String?
+  #endif
+  public static func UCTStringToString(utcString: Swift.String, formato: Swift.String) -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func recuperasw1(cadena: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func recuperasw2(cadena: Swift.String) -> Swift.String?
+  #endif
+  @objc deinit
+}
+extension Swift.String {
+  public var length: Swift.Int {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func indexOf(target: Swift.String) -> Swift.Int?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func lastIndexOf(target: Swift.String) -> Swift.Int?
+  #endif
+  public func contains(s: Swift.String) -> Swift.Bool
+  public func index(from: Swift.Int) -> Swift.String.Index
+  public func substring(from: Swift.Int) -> Swift.String
+  public func substring(to: Swift.Int) -> Swift.String
+  public func substring(with r: Swift.Range<Swift.Int>) -> Swift.String
+  public func splitea(separador: Swift.Character) -> [Swift.String]
+  public func splitea(separador: Swift.String) -> [Swift.String]
+  public func startsWith(cadena: Swift.String) -> Swift.Bool
+}
+public struct iQRDNI {
+  public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @discardableResult
+  public static func configure(apiKey: Swift.String, certConfig: [Swift.String : Swift.String]? = nil) -> iQRDNI.EstadoLicencia
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func validaMiDNIQR(qrRawData: Foundation.Data) -> iQRDNI.MiDNIData?
+  #endif
+}
+extension iQRDNI.MiDNIType : Swift.Equatable {}
+extension iQRDNI.MiDNIType : Swift.Hashable {}
+extension iQRDNI.MiDNIType : Swift.RawRepresentable {}
