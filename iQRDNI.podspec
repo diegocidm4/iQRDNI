@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "iQRDNI"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Librería basada en Swift para la lectura del código QR generado por la app MiDNI"
 
   spec.description  = <<-DESC
