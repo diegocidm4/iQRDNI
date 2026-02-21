@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "iQRDNI",
     platforms: [
-        .macOS(.v12), .iOS(.v16)
+        .iOS(.v13)
         ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
