@@ -39,8 +39,8 @@ public struct MiDNIData {
   public var rawSignature: Foundation.Data?
   public var signedData: Foundation.Data?
   public var certificateRef: Swift.String?
-  public var type: iQRDNI.MiDNIType?
-  public var verificationResult: iQRDNI.VerificationResult?
+  public var type: MiDNIType?
+  public var verificationResult: VerificationResult?
   public var qrDataExpiry: Swift.String?
   public var fullBirthPlace: Swift.String {
     get
@@ -112,12 +112,12 @@ public struct iQRDNI {
   public init()
   #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
-  public static func configure(apiKey: Swift.String, certConfig: [Swift.String : Swift.String]? = nil) -> iQRDNI.EstadoLicencia
+  public static func configure(apiKey: Swift.String, certConfig: [Swift.String : Swift.String]? = nil) -> EstadoLicencia
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func validaMiDNIQR(qrRawData: Foundation.Data) -> iQRDNI.MiDNIData?
+  public static func validaMiDNIQR(qrRawData: Foundation.Data) -> MiDNIData?
   #endif
 }
-extension iQRDNI.MiDNIType : Swift.Equatable {}
-extension iQRDNI.MiDNIType : Swift.Hashable {}
-extension iQRDNI.MiDNIType : Swift.RawRepresentable {}
+extension MiDNIType : Swift.Equatable {}
+extension MiDNIType : Swift.Hashable {}
+extension MiDNIType : Swift.RawRepresentable {}
