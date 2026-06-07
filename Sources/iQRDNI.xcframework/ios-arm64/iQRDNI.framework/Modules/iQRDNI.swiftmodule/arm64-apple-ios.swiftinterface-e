@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios26.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iQRDNI
+// swift-module-flags: -target arm64-apple-ios13 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iQRDNI
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import CryptoKit
 import CryptoSwift
@@ -39,8 +39,8 @@ public struct MiDNIData {
   public var rawSignature: Foundation.Data?
   public var signedData: Foundation.Data?
   public var certificateRef: Swift.String?
-  public var type: MiDNIType?
-  public var verificationResult: VerificationResult?
+  public var type: iQRDNI.MiDNIType?
+  public var verificationResult: iQRDNI.VerificationResult?
   public var qrDataExpiry: Swift.String?
   public var fullBirthPlace: Swift.String {
     get
@@ -112,12 +112,12 @@ public struct iQRDNI {
   public init()
   #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
-  public static func configure(apiKey: Swift.String, certConfig: [Swift.String : Swift.String]? = nil) -> EstadoLicencia
+  public static func configure(apiKey: Swift.String, certConfig: [Swift.String : Swift.String]? = nil) -> iQRDNI.EstadoLicencia
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func validaMiDNIQR(qrRawData: Foundation.Data) -> MiDNIData?
+  public static func validaMiDNIQR(qrRawData: Foundation.Data) -> iQRDNI.MiDNIData?
   #endif
 }
-extension MiDNIType : Swift.Equatable {}
-extension MiDNIType : Swift.Hashable {}
-extension MiDNIType : Swift.RawRepresentable {}
+extension iQRDNI.MiDNIType : Swift.Equatable {}
+extension iQRDNI.MiDNIType : Swift.Hashable {}
+extension iQRDNI.MiDNIType : Swift.RawRepresentable {}
