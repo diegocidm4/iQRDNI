@@ -33,5 +33,4 @@ Pod::Spec.new do |spec|
   spec.user_target_xcconfig = {
     'IPHONEOS_DEPLOYMENT_TARGET' => '12.0'
   }
-  
 end
