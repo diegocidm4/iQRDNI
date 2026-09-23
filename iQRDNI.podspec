@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "iQRDNI"
-  spec.version      = "1.0.6"
+  spec.version      = "1.0.7"
   spec.summary      = "Librería basada en Swift para la lectura del código QR generado por la app MiDNI"
 
   spec.description  = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "Comercial", :file => "LICENSE" }
   spec.author       = { "Diego Cid Merino" => "diegocidm4@hotmail.com" }
 
-  spec.ios.deployment_target = "12.1"
+  spec.ios.deployment_target = "15.0"
   spec.swift_version = "5.0"
 
  spec.dependency "CryptoSwift", '1.6.0'
@@ -23,14 +23,14 @@ Pod::Spec.new do |spec|
   spec.subspec 'Core' do |core|
     core.preserve_paths      = 'Sources/iQRDNI.xcframework'
     core.vendored_frameworks = 'Sources/iQRDNI.xcframework'
-    core.ios.deployment_target = '12.0'
+    core.ios.deployment_target = '15.0'
   end
 
   spec.pod_target_xcconfig = {
-    'IPHONEOS_DEPLOYMENT_TARGET' => '12.0'
+    'IPHONEOS_DEPLOYMENT_TARGET' => '15.0'
   }
 
   spec.user_target_xcconfig = {
-    'IPHONEOS_DEPLOYMENT_TARGET' => '12.0'
+    'IPHONEOS_DEPLOYMENT_TARGET' => '15.0'
   }
 end
