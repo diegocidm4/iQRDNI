@@ -6,47 +6,47 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		eWr0+Ea2VA6sFO1s7F/+sdU7bs8=
+		FIsvJ7r9u9aw+eF2obaQFpMuZkY=
 		</data>
 		<key>Modules/iQRDNI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iqyRG5dnOr9kPQmVkddBu2TBMLw=
+		saS4DWl2ouvbqps0qpobMyzeCTk=
 		</data>
 		<key>Modules/iQRDNI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		J7HpMOSI0/E43LyEmseHwr5ZT+c=
+		31GVMQNxybr/ilCZh7GoxFLaMEg=
 		</data>
 		<key>Modules/iQRDNI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JQ4IwyRbN93XlxW5EApXINme1Ic=
+		wJ3q09/DPZQ1heFO3E3TmjTrjC0=
 		</data>
 		<key>Modules/iQRDNI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		J7HpMOSI0/E43LyEmseHwr5ZT+c=
+		31GVMQNxybr/ilCZh7GoxFLaMEg=
 		</data>
 		<key>Modules/iQRDNI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hPP0p4xwapwiomZrMCljE7gGQKw=
+		5whAIZkMCvtP1DGHngsl15hzzdI=
 		</data>
 		<key>Modules/iQRDNI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iqyRG5dnOr9kPQmVkddBu2TBMLw=
+		saS4DWl2ouvbqps0qpobMyzeCTk=
 		</data>
 		<key>Modules/iQRDNI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KfShXbZex5lVLDVOTWWS/pXnEYs=
+		dPqCHhfTP9QZNeHk8DW4JTSTrnM=
 		</data>
 		<key>Modules/iQRDNI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lDW35exVOND3EwE58q3M4i2KI4I=
+		QOHSDVRQrEeh/KlRkyXHVJhsyeg=
 		</data>
 		<key>Modules/iQRDNI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KfShXbZex5lVLDVOTWWS/pXnEYs=
+		dPqCHhfTP9QZNeHk8DW4JTSTrnM=
 		</data>
 		<key>Modules/iQRDNI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PdnFt7JEZVBSwqS9qBJqciLaTbQ=
+		NOZ+apr+tT9lOxCRbsL7SQDYYNQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,70 +55,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ASeeIkS9sIYJUYsj/vNE9oh3BVA8dhxyGDSXsj3eIRk=
+			1tVOPEb9Ih3jowA/4Ecshf7lt3M2OB0belJFFjQ61r0=
 			</data>
 		</dict>
 		<key>Modules/iQRDNI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kC4GT1MImA5NJXYljbarGX0QtzKciXQtccq7c71Agk4=
+			rAVZdLCrLcVGV70teL43nERagW1Nj8atgdnzRn8BdC0=
 			</data>
 		</dict>
 		<key>Modules/iQRDNI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ABxQvhKSFMP4helhn3E18urdpK28q18WFl+C5k1CmwQ=
+			BW2OLR0MZ20NUxy0aSl1sba1+yd97Znjppd0UEuBgEs=
 			</data>
 		</dict>
 		<key>Modules/iQRDNI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kC4GT1MImA5NJXYljbarGX0QtzKciXQtccq7c71Agk4=
+			rAVZdLCrLcVGV70teL43nERagW1Nj8atgdnzRn8BdC0=
 			</data>
 		</dict>
 		<key>Modules/iQRDNI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DAdI/EXgoom4bLRFEUF5b8gRq1zJFU1gGjgZsbvIN+M=
+			QtjCvTSVMoDQUmEo2HtBFloE+RQ5Jnc+jdHBBJYyKFs=
 			</data>
 		</dict>
 		<key>Modules/iQRDNI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ASeeIkS9sIYJUYsj/vNE9oh3BVA8dhxyGDSXsj3eIRk=
+			1tVOPEb9Ih3jowA/4Ecshf7lt3M2OB0belJFFjQ61r0=
 			</data>
 		</dict>
 		<key>Modules/iQRDNI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JXggWGo/9EP07J2c7CRJ6Hv+0USXWVi0Pfz45OyrJZU=
+			V2cRDKj60kLEHIPszbDd7dN8s+Gs2cs/fghj0wCM424=
 			</data>
 		</dict>
 		<key>Modules/iQRDNI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3FtQriPRcYIzQSYbqzYUMHtHrNBAbtOvHPKVbgWHdNY=
+			7isjSZ8PAL1jZXtiCbGF4/f1+IQg9UJ8W24u2+X0/xM=
 			</data>
 		</dict>
 		<key>Modules/iQRDNI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JXggWGo/9EP07J2c7CRJ6Hv+0USXWVi0Pfz45OyrJZU=
+			V2cRDKj60kLEHIPszbDd7dN8s+Gs2cs/fghj0wCM424=
 			</data>
 		</dict>
 		<key>Modules/iQRDNI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2pRrcQqjOHplo92kHBspCA8s2QSPHt8SqtdNPwHOJAA=
+			kqKi7QtuPsRWaI/1Om7oGUv7/Q1IILWhYKhryhM9sog=
 			</data>
 		</dict>
 	</dict>
