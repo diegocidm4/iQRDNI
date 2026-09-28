@@ -3505,16 +3505,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "CryptoSwift",
-        "printedName": "CryptoSwift",
-        "declKind": "Import",
-        "moduleName": "iQRDNI",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "PkiUtils",
         "printedName": "PkiUtils",
