@@ -3509,7 +3509,10 @@
         "name": "CryptoSwift",
         "printedName": "CryptoSwift",
         "declKind": "Import",
-        "moduleName": "iQRDNI"
+        "moduleName": "iQRDNI",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",

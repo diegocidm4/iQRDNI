@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "iQRDNI"
-  spec.version      = "1.0.7"
+  spec.version      = "1.0.9"
   spec.summary      = "Librería basada en Swift para la lectura del código QR generado por la app MiDNI"
 
   spec.description  = <<-DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "15.0"
   spec.swift_version = "5.0"
 
- spec.dependency "CryptoSwift", '1.6.0'
+ #spec.dependency "CryptoSwift", '1.6.0'
  
   spec.source        = { :git => "https://github.com/diegocidm4/iQRDNI.git", :tag => "#{spec.version}" }
   spec.default_subspec     = 'Core'
